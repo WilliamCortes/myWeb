@@ -13,7 +13,7 @@ const TableWQuestionsEX = (props: Props) => {
       </thead>
       <tbody>
         <tr>
-          <td>Simple Present</td>
+          <td className="td-title">Simple Present</td>
           <td>
             Who is your friend? My friend is Maria. What is your name? My name
             is John. Where are you from? I'm from the United States. When is

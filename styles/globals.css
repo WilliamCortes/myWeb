@@ -100,30 +100,22 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}
+
 table{
-  border-spacing: 12px;
+  margin-top: 2rem;
+  border-spacing: 3px;
 }
 thead{
   background-color: rgb(130, 242, 132);
 }
-tr{
-  margin-left: 1rem;
-}
+
 
 .td-title{
   background-color: rgb(208, 245, 208);
 
 }
 
-/* IA styles*/
-table, td, th {
-  /* border: 1px solid black; */
-}
+
 td {
   text-align: center;
 }
@@ -132,7 +124,7 @@ th {
   text-align: center;
 }
 tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #d2d0d0;
 }
 
 th {
@@ -140,6 +132,16 @@ th {
   color: white;
 }
 td, th {
-  width: 150px;
-  height: 50px;
+  /* width: 150px; */
+  /* height: 50px; */
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+}
+
+/* ant-class */
+.ant-layout-header{
+  width: 100%;
 }

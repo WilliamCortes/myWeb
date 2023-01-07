@@ -10,7 +10,12 @@ interface NavigationProps {
 const Navigation: React.FC<NavigationProps> = ({ currentPage = "Inicio" }) => {
   return (
     <Header>
-      <Menu theme="dark" mode="horizontal" selectedKeys={[currentPage]}>
+      <Menu
+        mode="horizontal"
+        theme="dark"
+        selectedKeys={[currentPage]}
+        className="flex"
+      >
         <Menu.Item key="/">
           <Link href="/" legacyBehavior>
             <a>Inicio</a>
