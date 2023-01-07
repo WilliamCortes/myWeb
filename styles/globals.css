@@ -3,11 +3,18 @@
   padding: 0;
   margin: 0;
 }
+body{
+  padding: 0 1rem;
+}
+
+
 
 table {
   margin-top: 2rem;
   border-spacing: 3px;
   width: 90vw;
+  max-width: 95vw;
+  min-width: 1000px;
   overflow: auto;
 }
 
@@ -39,6 +46,9 @@ th {
   /* width: 150px; */
   /* height: 50px; */
 }
+.t-container{
+  overflow-x: scroll;
+}
 
 .flex {
   display: flex;
@@ -46,6 +56,6 @@ th {
 }
 
 /* ant-class */
-.ant-layout-header {
+/* .ant-layout-header {
   width: 100%;
-}
+} */
