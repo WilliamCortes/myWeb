@@ -19,6 +19,8 @@ import TableToHave2 from "../components/tableToHave2";
 import TableToWant from "../components/tableToWant";
 import TableToSay from "../components/tableToSay";
 import TableToGet from "../components/tableToGet";
+import MyQuestions from "../components/myQuestions";
+import TableWQuestionsExamples from "../components/tableWquestionsExamples";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -42,6 +44,10 @@ export default function Home() {
         <TableToGet />
         <Verbs />
         <TableWQuestions />
+        <Divider />
+        <TableWQuestionsExamples />
+        <Divider />
+        <MyQuestions />
         <Divider />
         <TableWQuestionsEX />
         <Divider />

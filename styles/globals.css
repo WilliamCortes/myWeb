@@ -3,18 +3,16 @@
   padding: 0;
   margin: 0;
 }
-body{
+body {
   padding: 0 1rem;
 }
-
-
 
 table {
   margin-top: 2rem;
   border-spacing: 3px;
-  width: 90vw;
+  width: 1100px;
   max-width: 95vw;
-  min-width: 1000px;
+  min-width: 800px;
   overflow: auto;
 }
 
@@ -47,25 +45,27 @@ th {
 td,
 th {
   /* width: 150px; */
-  /* height: 50px; */
+  height: 30px;
 }
-.t-container{
+.t-container {
+  width: 1100px;
   overflow-x: scroll;
+  margin: 0 auto;
 }
 
-.t-title{
+.t-title {
   text-align: center;
   color: #4caf50;
   margin-top: 2rem;
 }
-.t-subtitle{
+.t-subtitle {
   background-color: rgb(130, 242, 132);
 }
-.t-subtitle-n{
+.t-subtitle-n {
   background-color: rgb(242, 130, 207);
 }
 
-.t-subtitle-q{
+.t-subtitle-q {
   background-color: rgb(130, 165, 242);
 }
 
@@ -74,7 +74,9 @@ th {
   justify-content: center;
 }
 
-/* ant-class */
-/* .ant-layout-header {
-  width: 100%;
-} */
+@media screen and (max-width: 1200px) {
+  .t-container{
+    width: unset;
+  }
+  
+}
