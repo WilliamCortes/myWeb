@@ -5,6 +5,7 @@ type Props = {};
 const Verbs = (props: Props) => {
   return (
     <div className="t-container">
+      <h2 className="t-title">VERBS</h2>
       <table>
         <thead>
           <tr>

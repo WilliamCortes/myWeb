@@ -741,7 +741,7 @@ es-abstract@^1.19.0, es-abstract@^1.20.4:
     internal-slot "^1.0.4"
     is-array-buffer "^3.0.0"
     is-callable "^1.2.7"
-    is-negative-zero "^2.0.2"
+    is- className="t-subtitle-n">Negative-zero "^2.0.2"
     is-regex "^1.1.4"
     is-shared-array-buffer "^1.0.2"
     is-string "^1.0.7"
@@ -1363,9 +1363,9 @@ is-glob@^4.0.0, is-glob@^4.0.1, is-glob@^4.0.3:
   dependencies:
     is-extglob "^2.1.1"
 
-is-negative-zero@^2.0.2:
+is- className="t-subtitle-n">Negative-zero@^2.0.2:
   version "2.0.2"
-  resolved "https://registry.yarnpkg.com/is-negative-zero/-/is-negative-zero-2.0.2.tgz#7bf6f03a28003b8b3965de3ac26f664d765f3150"
+  resolved "https://registry.yarnpkg.com/is- className="t-subtitle-n">Negative-zero/-/is- className="t-subtitle-n">Negative-zero-2.0.2.tgz#7bf6f03a28003b8b3965de3ac26f664d765f3150"
   integrity sha512-dqJvarLawXsFbNDeJW7zAz8ItJ9cd28YufuuFzh0G8pNHjJMnY08Dv7sYX2uF5UpQOwieAeOExEYAWWfu7ZZUA==
 
 is-number-object@^1.0.4:

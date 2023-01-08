@@ -7,7 +7,7 @@ interface NavigationProps {
   currentPage?: string;
 }
 
-const Navigation: React.FC<NavigationProps> = ({ currentPage = "Inicio" }) => {
+const Navigation: React.FC<NavigationProps> = ({ currentPage = "/" }) => {
   return (
     <Header>
       <Menu
@@ -22,12 +22,12 @@ const Navigation: React.FC<NavigationProps> = ({ currentPage = "Inicio" }) => {
           </Link>
         </Menu.Item>
         <Menu.Item key="/about">
-          <Link href="/about" legacyBehavior>
+          <Link href="/" legacyBehavior>
             <a>Acerca de</a>
           </Link>
         </Menu.Item>
         <Menu.Item key="/contact">
-          <Link href="/contact" legacyBehavior>
+          <Link href="/" legacyBehavior>
             <a>Contacto</a>
           </Link>
         </Menu.Item>

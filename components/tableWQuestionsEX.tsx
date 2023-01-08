@@ -5,6 +5,8 @@ type Props = {};
 const TableWQuestionsEX = (props: Props) => {
   return (
     <div className="t-container">
+      <h2 className="t-title">W-QUESTIONS EXAMPLES</h2>
+
       <table>
         <thead>
           <tr>

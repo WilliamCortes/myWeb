@@ -33,6 +33,9 @@ td {
 th {
   text-align: center;
 }
+tr:nth-child(odd) {
+  background-color: #f9f6f6;
+}
 tr:nth-child(even) {
   background-color: #d2d0d0;
 }
@@ -48,6 +51,22 @@ th {
 }
 .t-container{
   overflow-x: scroll;
+}
+
+.t-title{
+  text-align: center;
+  color: #4caf50;
+  margin-top: 2rem;
+}
+.t-subtitle{
+  background-color: rgb(130, 242, 132);
+}
+.t-subtitle-n{
+  background-color: rgb(242, 130, 207);
+}
+
+.t-subtitle-q{
+  background-color: rgb(130, 165, 242);
 }
 
 .flex {

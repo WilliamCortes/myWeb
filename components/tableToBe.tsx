@@ -3,6 +3,7 @@ import React from "react";
 const TableToBe = () => {
   return (
     <div className="t-container">
+      <h2 className="t-title">TO BE</h2>
       <table>
         <thead>
           <tr>
@@ -16,12 +17,12 @@ const TableToBe = () => {
         </thead>
         <tbody>
           <tr>
-            <td>Affirmative</td>
-            <td>Affirmative</td>
-            <td>Affirmative</td>
-            <td>Affirmative</td>
-            <td>Affirmative</td>
-            <td>Affirmative</td>
+            <td className="t-subtitle">Affirmative</td>
+            <td className="t-subtitle">Affirmative</td>
+            <td className="t-subtitle">Affirmative</td>
+            <td className="t-subtitle">Affirmative</td>
+            <td className="t-subtitle">Affirmative</td>
+            <td className="t-subtitle">Affirmative</td>
           </tr>
           <tr>
             <td>I am</td>
@@ -72,12 +73,12 @@ const TableToBe = () => {
             <td>They were being</td>
           </tr>
           <tr>
-            <td>Negative</td>
-            <td>Negative</td>
-            <td>Negative</td>
-            <td>Negative</td>
-            <td>Negative</td>
-            <td>Negative</td>
+            <td className="t-subtitle-n">Negative</td>
+            <td className="t-subtitle-n">Negative</td>
+            <td className="t-subtitle-n">Negative</td>
+            <td className="t-subtitle-n">Negative</td>
+            <td className="t-subtitle-n">Negative</td>
+            <td className="t-subtitle-n">Negative</td>
           </tr>
           <tr>
             <td>I am not</td>
@@ -128,12 +129,12 @@ const TableToBe = () => {
             <td>They were not being</td>
           </tr>
           <tr>
-            <td>Interrogative</td>
-            <td>Interrogative</td>
-            <td>Interrogative</td>
-            <td>Interrogative</td>
-            <td>Interrogative</td>
-            <td>Interrogative</td>
+            <td className="t-subtitle-q">Interrogative</td>
+            <td className="t-subtitle-q">Interrogative</td>
+            <td className="t-subtitle-q">Interrogative</td>
+            <td className="t-subtitle-q">Interrogative</td>
+            <td className="t-subtitle-q">Interrogative</td>
+            <td className="t-subtitle-q">Interrogative</td>
           </tr>
           <tr>
             <td>Am I</td>
