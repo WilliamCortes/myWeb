@@ -21,6 +21,7 @@ import TableToSay from "../components/tableToSay";
 import TableToGet from "../components/tableToGet";
 import MyQuestions from "../components/myQuestions";
 import TableWQuestionsExamples from "../components/tableWquestionsExamples";
+import QUASIQuestions from "../components/quasiQuestions";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -43,6 +44,9 @@ export default function Home() {
         <TableToSay />
         <TableToGet />
         <Verbs />
+        <Divider />
+        <QUASIQuestions />
+        <Divider />
         <TableWQuestions />
         <Divider />
         <TableWQuestionsExamples />
