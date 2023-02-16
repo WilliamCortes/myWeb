@@ -25,6 +25,7 @@ import QUASIQuestions from "../components/quasiQuestions";
 import Verbs50 from "../components/verbs50";
 import Verbs100 from "../components/verbs100";
 import Verbs150 from "../components/verbs150";
+import ReactPlayer from "react-player";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -39,6 +40,10 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <Navigation />
+        <br />
+        <br />
+        <ReactPlayer url="https://www.youtube.com/watch?v=FM7MFYoylVs" />
+
         <Verbs50 />
         <Verbs100 />
         <Verbs150 />
