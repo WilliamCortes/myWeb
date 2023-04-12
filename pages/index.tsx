@@ -1,83 +1,77 @@
-import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "@next/font/google";
-import styles from "../styles/Home.module.css";
-import { Button, Divider } from "antd";
-import Navigation from "../components/navbar.component";
-import TableToBe from "../components/tableToBe";
-import TableToGo from "../components/tableToGo";
-import TableToDo from "../components/tableToDo";
-import TableWQuestions from "../components/tableWQuestions";
-import TableWQuestionsEX from "../components/tableWQuestionsEX";
-import FrequentQuestions from "../components/frequentQuestions";
-import Verbs from "../components/verbs";
-import TableToHave from "../components/tableToHave";
-import TableToBe2 from "../components/tableToBe2";
-import TableToDo2 from "../components/tableToDo2";
-import TableToGo2 from "../components/tableToGo2";
-import TableToHave2 from "../components/tableToHave2";
-import TableToWant from "../components/tableToWant";
-import TableToSay from "../components/tableToSay";
-import TableToGet from "../components/tableToGet";
-import MyQuestions from "../components/myQuestions";
-import TableWQuestionsExamples from "../components/tableWquestionsExamples";
-import QUASIQuestions from "../components/quasiQuestions";
-import Verbs50 from "../components/verbs50";
-import Verbs100 from "../components/verbs100";
-import Verbs150 from "../components/verbs150";
-import ReactPlayer from "react-player";
+import React, { Fragment, useEffect, useState } from "react";
+import { NextPage } from "next";
+import { GetStaticProps } from "next";
+import {
+  About,
+  Intro,
+  Navbar,
+  Portfolio,
+  Experience,
+  Testimonials,
+  Contact,
+  Footer,
+  WhatsApp,
+  Sidebar,
+} from "@/components/ui";
+import { getData } from "@/database";
 
-const inter = Inter({ subsets: ["latin"] });
+type Props = {
+  navbar: any;
+  intro: any;
+  about: any;
+  portfolio: any;
+  experience: any;
+  testimonials: any;
+  contact: any;
+  footer: any;
+};
 
-export default function Home() {
+const Home: NextPage<Props> = ({
+  navbar,
+  intro,
+  about,
+  portfolio,
+  experience,
+  testimonials,
+  contact,
+  footer,
+}) => {
+  const [showMenu, setShowMenu] = useState(false);
+  const handleShow = () => setShowMenu((value) => !value);
+
+  useEffect(() => {
+    if (showMenu) {
+      window.addEventListener("scroll", () => setShowMenu(false));
+    }
+  }, [showMenu]);
+
   return (
-    <>
-      <Head>
-        <title>English Tables</title>
-        <meta name="description" content="Tables in english" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <main className={styles.main}>
-        <Navigation />
-        <br />
-        <br />
-        <ReactPlayer url="https://www.youtube.com/watch?v=FM7MFYoylVs" />
+    <Fragment>
+      <Navbar {...navbar} showMenu={showMenu} handleShow={handleShow} />
+      <Sidebar isOpen={showMenu} {...navbar} />
 
-        <Verbs50 />
-        <Verbs100 />
-        <Verbs150 />
-
-        <TableToBe2 />
-        <TableToHave2 />
-        <TableToDo2 />
-        <TableToWant />
-        <TableToGo2 />
-        <TableToSay />
-        <TableToGet />
-        <Verbs />
-        <Divider />
-        <QUASIQuestions />
-        <Divider />
-        <TableWQuestions />
-        <Divider />
-        <TableWQuestionsExamples />
-        <Divider />
-        <MyQuestions />
-        <Divider />
-        <TableWQuestionsEX />
-        <Divider />
-        <FrequentQuestions />
-        <Divider />
-
-        <TableToBe />
-        <TableToDo />
-        <TableToGo />
-        <TableToHave />
-        <div>
-          <Button type="primary">By william</Button>
-        </div>
+      <main>
+        <Intro {...intro} />
+        <About {...about} />
+        <Portfolio {...portfolio} />
+        <Experience {...experience} />
+        <Testimonials {...testimonials} />
+        <Contact {...contact} />
       </main>
-    </>
+
+      <Footer {...footer} />
+      <WhatsApp {...contact} />
+    </Fragment>
   );
-}
+};
+
+export const getStaticProps: GetStaticProps = (ctx) => {
+  const data = getData("/api/data");
+
+  return {
+    revalidate: 600,
+    props: { ...data },
+  };
+};
+
+export default Home;

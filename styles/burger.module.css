@@ -1,0 +1,43 @@
+.btn {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 1.7rem;
+  height: 1.7rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+  position: absolute;
+  left: 9rem;
+}
+.btn:focus {
+  outline: none;
+}
+
+.line {
+  width: 1.7rem;
+  height: 0.2rem;
+  border-radius: 10px;
+  transition: all 0.3s linear;
+  position: relative;
+  transform-origin: 1px;
+  background: #808080;
+}
+
+@media (max-width: 600px) {
+  .btn{
+    left: 12rem;
+  display: flex;
+  }
+}
+
+@media (max-width: 800px) {
+  .btn{
+  display: flex;
+  }
+  .line  {
+    display: unset;
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "navbar": {
+    "img": "https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/logo.svg",
+    "options": [
+      {
+        "title": "About me",
+        "href": "#about-me",
+        "className": "btn--nav"
+      },
+      {
+        "title": "Portfolio",
+        "href": "#portfolio",
+        "className": "btn--nav"
+      },
+      {
+        "title": "Experience",
+        "href": "#experience",
+        "className": "btn--nav"
+      },
+      {
+        "title": "Testimonials",
+        "href": "#testimonials",
+        "className": "btn--nav"
+      },
+      {
+        "title": "Hire me",
+        "href": "#hire-me",
+        "className": "btn--raised"
+      }
+    ]
+  },
+  "intro": {
+    "fullName": "William Cortés",
+    "profession": "Web Developer",
+    "description": {
+      "first": "Will is a web developer based in Colombia.",
+      "second": "Will brings your idea to life with",
+      "third": "modern technology."
+    }
+  },
+  "about": {
+    "title": "About me",
+    "description": {
+      "first": "Hello I'm Will, I'm an enthusiastic and positive Full Stack Developer. I love learning, I consider it a tool to improve and evolve. I was captivated by the I.T. world for its dynamic, constantly changing.",
+      "second": "I started in this field by a basic programming course in #Platzi, where I did the #JavaScript school.",
+      "third": "  I like to find innovative solutions to different challenges, to work as part of a team and to contribute my technical skills, my ability to listen actively and my capacity for conciliation."
+    }
+  },
+  "portfolio": {
+    "title": " Portfolio",
+    "portfolio": [
+      {
+        "img": "https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/project-1.jpg",
+        "title": "Magneto web app",
+        "description": "I work in a Colombian company as a front-end developer and with my team we developed this solution that helps millions of people to find a job.",
+        "href": "https://www.magneto365.com/co/empleos",
+        "link": "Visit"
+      },
+      {
+        "img": "https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/project-3.jpg",
+        "title": "Travel planner",
+        "description": "Once a year, it's time to let the place you go home and go discover. With this Travel planner, you can easily plan your next trip. So, where will you go?",
+        "href": "https://example.com",
+        "link": "Visit"
+      },
+      {
+        "img": "https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/project-4.jpg",
+        "title": "Sports tracker",
+        "description": "I love sports. I love to track my progress. With this sports tracker app, you can easily track your progress and unlock achievements. The unique gamification aspect makes you want to keep smashing your goals!",
+        "href": "https://example.com",
+        "link": "Visit"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "list": [
+      { "tag": "Startup advice" },
+      { "tag": "Income tax" },
+      { "tag": "Sales tax" },
+      { "tag": "Minimum Viable Product" },
+      { "tag": "HTML" },
+      { "tag": "CSS" },
+      { "tag": "JavaScript" },
+      { "tag": "React" },
+      { "tag": "Redux" },
+      { "tag": "Next" },
+      { "tag": "TypeScript" },
+      { "tag": "Ant Design" },
+      { "tag": "Python" }
+    ]
+  },
+  "testimonials": {
+    "title": "testimonials",
+    "list": [
+      {
+        "description": "Will has completely transformed the way we launch our products! What we particularly appreciate is the attention to detail and express communication. We are really happy that the whole project was completed worry-free! Thank you, Will!",
+        "name": "Jhon Doe"
+      },
+      {
+        "description": "  We were skeptical at first. However, Will over delivered on our project. We are very happy and satisfied customers. Definitely recommended htmlFor startups!",
+        "name": "Jhonatan Doe"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Hire Me",
+    "location": "Current location",
+    "address":"La Felicidad, Mesitas de Santa Inés",
+    "city":"Cachipay,",
+    "country":"Colombia",
+    "emailTitle":"Email",
+    "email":"williamcortes.co@gmail.com",
+    "phoneTitle":"Phone number",
+    "phone":"57 310 329 83 46",
+    "whatsAppMessage": "Hello I want speak with you",
+    "action": "https://formsubmit.co/williamcortes.co@gmail.com",
+    "placeholder":{
+      "name": "Enter your name",
+      "email": "Enter your email",
+      "message":"Enter your message",
+      "btn": "Send"
+    }
+  },
+  "footer": {
+    "img":"https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/logo.svg",
+    "nick": "Will",
+    "slogan": "Always for you",
+    "title": "My Social Media",
+    "twitter": "https://twitter.com/totto2203",
+    "facebook": "https://gist.github.com/WilliamCortes",
+    "linkedin": "https://www.linkedin.com/in/williamcortesco/"
+  }
+
+}
