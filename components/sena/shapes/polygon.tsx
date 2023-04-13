@@ -47,7 +47,7 @@ export const RegularPolygon = () => {
           <Form
             labelCol={{ span: 10 }}
             wrapperCol={{ span: 10 }}
-            layout="horizontal"
+            layout="vertical"
           >
             <Form.Item
               label="Número de lados:"
@@ -94,13 +94,16 @@ export const RegularPolygon = () => {
           </Form>
           {area && (
             <h3 className="title-rs">
-              <span>Área:</span>
+              <span>
+                {" "}
+                Área und<i>&nbsp;&nbsp;</i>:
+              </span>
               <InputNumber className={style.input} disabled value={area} />
             </h3>
           )}
           {perimeter && (
             <h3 className="title-rs">
-              <span>Perímetro:</span>
+              <span>Perímetro und: </span>
               <InputNumber className={style.input} disabled value={perimeter} />
             </h3>
           )}

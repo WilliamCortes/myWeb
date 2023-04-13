@@ -92,13 +92,15 @@ export const Trapezoid = () => {
           </Form>
           {area && (
             <h3 className="title-rs">
-              <span>Area: </span>
+              <span>
+                Área und<i>&nbsp;&nbsp;</i>:
+              </span>
               <InputNumber className={style.input} disabled value={area} />
             </h3>
           )}
           {perimeter && (
             <h3 className="title-rs">
-              <span>Perimetro: </span>
+              <span>Perímetro und: </span>
               <InputNumber className={style.input} disabled value={perimeter} />
             </h3>
           )}

@@ -69,6 +69,7 @@ const AreaCalculator: React.FC = () => {
         labelCol={{ span: 4 }}
         wrapperCol={{ span: 14 }}
         layout="horizontal"
+        className="form-rs"
       >
         <Form.Item
           className={style.label}

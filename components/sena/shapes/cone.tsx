@@ -64,8 +64,10 @@ export const Cone = () => {
             </Form.Item>
           </Form>
           {volume && (
-            <h3 className="title-rs">
-              <span>Volumen: </span>
+            <h3 className="title-rs--vol">
+              <span>
+                Volumen und&nbsp;&nbsp;<i>3</i>:{" "}
+              </span>
               <InputNumber className={style.input} disabled value={volume} />
             </h3>
           )}
@@ -73,8 +75,8 @@ export const Cone = () => {
         <Col span={24} lg={12}>
           <Image
             className={style.img}
-            height={400}
-            width={450}
+            height={450}
+            width={400}
             src={coneVolume}
             alt=""
           />

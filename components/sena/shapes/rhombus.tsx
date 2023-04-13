@@ -72,13 +72,15 @@ export const Rhombus = () => {
           </Form>
           {area && (
             <h3 className="title-rs">
-              <span>Área: </span>
+              <span>
+                Área und<i>&nbsp;&nbsp;</i>:
+              </span>{" "}
               <InputNumber className={style.input} disabled value={area} />
             </h3>
           )}
           {perimeter && (
             <h3 className="title-rs">
-              <span>Perímetro: </span>
+              <span>Perímetro und: </span>
               <InputNumber className={style.input} disabled value={perimeter} />
             </h3>
           )}
@@ -87,7 +89,7 @@ export const Rhombus = () => {
           <Image
             className={style.img}
             height={380}
-            width={380}
+            width={450}
             src={rhombusArea}
             alt=""
           />
