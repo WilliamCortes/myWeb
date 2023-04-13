@@ -90,7 +90,7 @@ export const Rectangle = () => {
         </Col>
         <Col span={24} lg={12}>
           <Image
-            layout="responsive"
+            className={style.img}
             height={250}
             width={250}
             src={rectangleArea}
@@ -98,7 +98,7 @@ export const Rectangle = () => {
           />
           <Divider />
           <Image
-            layout="responsive"
+            className={style.img}
             height={250}
             width={250}
             src={rectanglePerimeter}

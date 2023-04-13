@@ -34,16 +34,10 @@
   }
 }
 
-.select{
-  height: 600px !important;
-  :global{
-    .rc-virtual-list-holder{
-      // height: 600px !important;
-      // max-height: 600px;
-    }
-    #shape-select_list{
-      // height: 600px !important;
-      // max-height: 600px;
-    }
+.img{
+  @media screen and (max-width: 900px) {
+    width: auto!important;
+    height: auto!important;
+    max-width: 90%;
   }
 }

@@ -105,7 +105,7 @@ export const Trapezoid = () => {
         </Col>
         <Col span={24} lg={12}>
           <Image
-            layout="responsive"
+            className={style.img}
             height={250}
             width={400}
             src={trapezoidArea}
@@ -113,7 +113,7 @@ export const Trapezoid = () => {
           />
           <Divider />
           <Image
-            layout="responsive"
+            className={style.img}
             height={250}
             width={400}
             src={trapezoidPerimeter}

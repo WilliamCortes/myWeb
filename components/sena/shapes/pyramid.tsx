@@ -73,7 +73,7 @@ export const Pyramid = () => {
         </Col>
         <Col span={24} lg={12}>
           <Image
-            layout="responsive"
+            className={style.img}
             height={400}
             width={450}
             src={pyramidVolume}

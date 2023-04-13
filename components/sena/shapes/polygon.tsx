@@ -107,7 +107,7 @@ export const RegularPolygon = () => {
         </Col>
         <Col span={24} lg={12}>
           <Image
-            layout="responsive"
+            className={style.img}
             height={220}
             width={450}
             src={polygonArea}
@@ -115,7 +115,7 @@ export const RegularPolygon = () => {
           />
           <Divider />
           <Image
-            layout="responsive"
+            className={style.img}
             height={220}
             width={450}
             src={polygonPerimeter}

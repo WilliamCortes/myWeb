@@ -73,7 +73,7 @@ export const Square = () => {
         </Col>
         <Col span={24} lg={12}>
           <Image
-            layout="responsive"
+            className={style.img}
             height={250}
             width={250}
             src={squareArea}
@@ -81,7 +81,7 @@ export const Square = () => {
           />
           <Divider />
           <Image
-            layout="responsive"
+            className={style.img}
             height={250}
             width={250}
             src={squarePerimeter}

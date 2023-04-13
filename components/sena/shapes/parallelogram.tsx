@@ -104,7 +104,7 @@ export const Parallelogram = () => {
         </Col>
         <Col span={24} lg={12}>
           <Image
-            layout="responsive"
+            className={style.img}
             height={250}
             width={400}
             src={parallelogramArea}
@@ -112,7 +112,7 @@ export const Parallelogram = () => {
           />
           <Divider />
           <Image
-            layout="responsive"
+            className={style.img}
             height={250}
             width={250}
             src={parallelogramPerimeter}

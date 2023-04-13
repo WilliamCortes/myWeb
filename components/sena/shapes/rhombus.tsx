@@ -85,14 +85,15 @@ export const Rhombus = () => {
         </Col>
         <Col span={24} lg={12}>
           <Image
-            layout="responsive"
+            className={style.img}
             height={380}
             width={380}
             src={rhombusArea}
             alt=""
           />
           <Divider />
-          {/* <Image layout="responsive" height={250} width={250} src={rhombusPerimeter} alt="" /> */}
+          {/*  <Image
+            className={style.img}    height={250} width={250} src={rhombusPerimeter} alt="" /> */}
         </Col>
       </Row>
     </Fragment>

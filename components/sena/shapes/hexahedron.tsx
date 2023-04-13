@@ -1,8 +1,8 @@
 import React, { Fragment, useEffect, useState } from "react";
-import { Col, Divider, Form, InputNumber, Row, Typography } from "antd";
+import Image from "next/image";
+import { Col, Form, InputNumber, Row, Typography } from "antd";
 import cubeImage from "@/public/assets/sena/cube.png";
 import style from "@/styles/sena.module.scss";
-import Image from "next/image";
 
 const { Title } = Typography;
 
@@ -59,7 +59,7 @@ export const Cube = () => {
         </Col>
         <Col span={24} lg={12}>
           <Image
-            layout="responsive"
+            className={style.img}
             height={400}
             width={450}
             src={cubeImage}

@@ -60,7 +60,7 @@ export const Tetrahedron = () => {
         </Col>
         <Col span={24} lg={12}>
           <Image
-            layout="responsive"
+            className={style.img}
             height={300}
             width={250}
             src={tetrahedronVolume}

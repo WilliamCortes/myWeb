@@ -121,7 +121,7 @@ export const Triangle = () => {
         </Col>
         <Col span={24} lg={12}>
           <Image
-            layout="responsive"
+            className={style.img}
             height={250}
             width={250}
             src={triangleArea}
@@ -129,7 +129,7 @@ export const Triangle = () => {
           />
           <Divider />
           <Image
-            layout="responsive"
+            className={style.img}
             height={250}
             width={250}
             src={trianglePerimeter}
