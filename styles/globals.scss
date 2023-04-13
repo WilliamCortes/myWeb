@@ -75,10 +75,9 @@ th {
 }
 
 @media screen and (max-width: 1200px) {
-  .t-container{
+  .t-container {
     width: unset;
   }
-  
 }
 
 /* //************************************* */
@@ -119,6 +118,11 @@ th {
 html {
   background-color: var(--dark-blue);
   color: var(--text-color);
+}
+
+:global(.ant-form-item-label) {
+  background-color: #000;
+  color: #fff;
 }
 
 html.light-theme {
@@ -181,6 +185,32 @@ body {
   font-size: 1.6rem;
   font-weight: 600;
   line-height: 1.06;
+}
+
+.content-rs {
+  margin: 0 8rem 15rem 8rem;
+  @media screen and (max-width: 900px) {
+    margin: 0 2rem 15rem 2rem;
+  }
+}
+
+.title-rs {
+  display: flex;
+  align-items: center;
+  margin-right: 3rem;
+  margin-bottom: 2rem;
+  font-size: 2.8rem;
+  font-weight: 300;
+  line-height: 1.77;
+  span {
+    width: 150px;
+  }
+}
+
+.text-rs {
+  font-size: 17px;
+  line-height: 1.77;
+  margin-bottom: 40px;
 }
 
 .text--xl {

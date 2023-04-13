@@ -35,7 +35,13 @@ export const Navbar: FC<Props> = ({ img, options, handleShow, showMenu }) => {
       <div className="container">
         <div className="nav">
           <div className="nav-logo">
-            <Image src={img} alt="Web Portfolio logo" width="45" height="43" />
+            <Image
+              layout="responsive"
+              src={img}
+              alt="Web Portfolio logo"
+              width="45"
+              height="43"
+            />
           </div>
           <Burger
             isOpen={showMenu}

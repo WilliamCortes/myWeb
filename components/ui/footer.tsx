@@ -25,7 +25,13 @@ export const Footer: FC<Props> = ({
       <div className="container">
         <div className="footer">
           <div className="side">
-            <Image src={img} alt="Web logo" width="45" height="43" />
+            <Image
+              layout="responsive"
+              src={img}
+              alt="Web logo"
+              width="45"
+              height="43"
+            />
             <div>
               <p className="text--bold footer-name">
                 {nick} {new Date().getFullYear()}{" "}
