@@ -15,6 +15,11 @@ const customRedirects: NextApiHandler = (
       destination: "/trabajos/empleos-por-ciudades",
       permanent: true,
     },
+    {
+      source: "/empleos/otro",
+      destination: "/empresas/comfama",
+      permanent: true,
+    },
   ]);
 };
 
