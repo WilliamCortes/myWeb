@@ -6,19 +6,16 @@ const customRedirects: NextApiHandler = (
 ) => {
   return res.status(200).json([
     {
-      source: "/empleos/algo",
+      source: "http://localhost:8060/co/empleos/algo",
       destination: "/empresas/grupo-exito",
-      permanent: true,
     },
     {
-      source: "/empleos/redirect",
+      source: "http://localhost:8060/co/empleos/redirect",
       destination: "/trabajos/empleos-por-ciudades",
-      permanent: true,
     },
     {
-      source: "/empleos/otro",
+      source: "http://localhost:8060/co/empleos/otro",
       destination: "/empresas/comfama",
-      permanent: true,
     },
   ]);
 };
