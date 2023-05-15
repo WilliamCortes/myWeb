@@ -7,17 +7,21 @@ const customRedirects: NextApiHandler = (
   return res.status(200).json([
     {
       source: "http://localhost:8060/co/empleos/algo",
-      destination: "/empresas/grupo-exito",
+      destination: "http://localhost:8060/co/empresas/grupo-exito",
     },
     {
       source: "http://localhost:8060/co/empleos/redirect",
-      destination: "/trabajos/empleos-por-ciudades",
+      destination: "http://localhost:8060/co/trabajos/empleos-por-ciudades",
     },
     {
       source: "http://localhost:8060/co/empleos/otro",
-      destination: "/empresas/comfama",
+      destination: "http://localhost:8060/co/empresas/comfama",
     },
   ]);
 };
 
 export default customRedirects;
+// },
+// redirects: async () => {
+//   return axios.get(`https://www.williamcortes.co/api/custonRedirects`).then((response) => response.data);
+// }
