@@ -7,15 +7,15 @@ const customRedirects: NextApiHandler = (
   return res.status(200).json([
     {
       source: "http://localhost:8060/co/empleos/algo",
-      destination: "http://localhost:8060/co/empresas/grupo-exito",
+      destination: "http://localhost:8060/co/empleos",
     },
     {
       source: "http://localhost:8060/co/empleos/redirect",
-      destination: "http://localhost:8060/co/trabajos/empleos-por-ciudades",
+      destination: "http://localhost:8060/co/trabajos",
     },
     {
       source: "http://localhost:8060/co/empleos/otro",
-      destination: "http://localhost:8060/co/empresas/comfama",
+      destination: "http://localhost:8060/co/empleos?q=fotografo",
     },
   ]);
 };
