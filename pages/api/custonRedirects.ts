@@ -6,16 +6,16 @@ const customRedirects: NextApiHandler = (
 ) => {
   return res.status(200).json([
     {
-      source: "https://www-stg.magneto365.com/co/empleos/algo",
-      destination: "https://www-stg.magneto365.com/co/empleos",
+      source: "/empleos/algo",
+      destination: "/empleos",
     },
     {
-      source: "https://www-stg.magneto365.com/co/empleos/redirect",
-      destination: "https://www-stg.magneto365.com/co/trabajos",
+      source: "/empleos/redirect",
+      destination: "/trabajos",
     },
     {
-      source: "https://www-stg.magneto365.com/co/empleos/otro",
-      destination: "https://www-stg.magneto365.com/co/empleos?q=fotografo",
+      source: "/empleos/otro",
+      destination: "/empleos?q=fotografo",
     },
   ]);
 };
