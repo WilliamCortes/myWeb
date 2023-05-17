@@ -8,14 +8,17 @@ const customRedirects: NextApiHandler = (
     {
       source: "/empleos/algo",
       destination: "https://www-stg.magneto365.com/co/empleos",
+      status: 301,
     },
     {
       source: "/empleos/redirect",
       destination: "https://www-stg.magneto365.com/co/trabajos",
+      status: 302,
     },
     {
       source: "/empleos/otro",
       destination: "https://www-stg.magneto365.com/co/empleos?q=fotografo",
+      status: 310,
     },
   ]);
 };
