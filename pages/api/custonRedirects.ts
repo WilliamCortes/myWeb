@@ -7,15 +7,15 @@ const customRedirects: NextApiHandler = (
   return res.status(200).json([
     {
       source: "/empleos/algo",
-      destination: "/empleos",
+      destination: "https://www-stg.magneto365.com/co/empleos",
     },
     {
       source: "/empleos/redirect",
-      destination: "/trabajos",
+      destination: "https://www-stg.magneto365.com/co/trabajos",
     },
     {
       source: "/empleos/otro",
-      destination: "/empleos?q=fotografo",
+      destination: "https://www-stg.magneto365.com/co/empleos?q=fotografo",
     },
   ]);
 };
