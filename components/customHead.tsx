@@ -28,7 +28,7 @@ const CustomHead: FC<Props> = ({ title, description }) => {
 
       <meta property="og:image:alt" content={title} />
       <meta property="og:locale" content={router.locale} />
-      <meta property="og:site_name" content="Magneto Empleos" />
+      <meta property="og:site_name" content="William Cortés" />
       <meta property="og:type" content="website" />
 
       <meta name="twitter:title" content={title} />
