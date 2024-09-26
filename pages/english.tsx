@@ -26,6 +26,7 @@ import Verbs50 from "../components/verbs50";
 import Verbs100 from "../components/verbs100";
 import Verbs150 from "../components/verbs150";
 import ReactPlayer from "react-player";
+import { Conjunctions } from "@/components/english/conjunctions";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -47,7 +48,8 @@ export default function Home() {
         <Verbs50 />
         <Verbs100 />
         <Verbs150 />
-
+        <Divider />
+        <Conjunctions />
         <TableToBe2 />
         <TableToHave2 />
         <TableToDo2 />
