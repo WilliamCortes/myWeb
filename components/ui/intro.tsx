@@ -33,9 +33,9 @@ export const Intro: FC<Props> = ({ fullName, profession, description }) => {
         <h2 id="intro-h2" className="title--lg intro-tagline">
           {profession}
         </h2>
-        <p className="text--xl">{description.first}</p>
+        <p className="text--xl">{description?.first}</p>
         <p className="text--xl">
-          {description.second} <strong>{description.third}</strong>
+          {description?.second} <strong>{description?.third}</strong>
         </p>
       </div>
       <div className="scroll-down" id="scroll-down" onClick={handleClick}>

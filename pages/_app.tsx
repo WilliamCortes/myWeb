@@ -1,9 +1,24 @@
 import type { AppProps } from "next/app";
 import Script from "next/script";
 import "@/styles/globals.scss";
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
+import { appWithTranslation } from "next-i18next";
+import { createChat } from "@n8n/chat";
+import en from "../data/en.json";
+import es from "../data/es.json";
 
-export default function App({ Component, pageProps }: AppProps) {
+function App({ Component, pageProps }: AppProps) {
+  useEffect(() => {
+    console.log('Loading chat i18n from JSON:', { en: en.chat, es: es.chat });
+    console.log('Webhook URL:', process.env.NEXT_PUBLIC_WEBHOOK_URL);
+    createChat({
+      webhookUrl: process.env.NEXT_PUBLIC_WEBHOOK_URL,
+      i18n: {
+        en: en.chat,
+        es: es.chat,
+      },
+    });
+  }, []);
   return (
     <Fragment>
       <Script
@@ -23,3 +38,5 @@ export default function App({ Component, pageProps }: AppProps) {
     </Fragment>
   );
 }
+
+export default appWithTranslation(App);

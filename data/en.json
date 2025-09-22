@@ -1,32 +1,12 @@
 {
   "navbar": {
-    "img": "https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/logo.svg",
+    "img": "/assets/icons/logo.svg",
     "options": [
-      {
-        "title": "About me",
-        "href": "#about-me",
-        "className": "btn--nav"
-      },
-      {
-        "title": "Portfolio",
-        "href": "#portfolio",
-        "className": "btn--nav"
-      },
-      {
-        "title": "Experience",
-        "href": "#experience",
-        "className": "btn--nav"
-      },
-      {
-        "title": "Testimonials",
-        "href": "#testimonials",
-        "className": "btn--nav"
-      },
-      {
-        "title": "Hire me",
-        "href": "#hire-me",
-        "className": "btn--raised"
-      }
+      { "title": "About me", "href": "#about-me", "className": "btn--nav" },
+      { "title": "Portfolio", "href": "#portfolio", "className": "btn--nav" },
+      { "title": "Experience", "href": "#experience", "className": "btn--nav" },
+      { "title": "Testimonials", "href": "#testimonials", "className": "btn--nav" },
+      { "title": "Hire me", "href": "#hire-me", "className": "btn--raised" }
     ]
   },
   "intro": {
@@ -34,8 +14,8 @@
     "profession": "Web Developer",
     "description": {
       "first": "Will is a web developer based in Colombia.",
-      "second": "Will brings your idea to life with",
-      "third": "modern technology."
+      "second": "He builds robust, accessible UIs with React/Next.js and REST APIs with Node.js.",
+      "third": "Currently focused on shipping real features with modern tooling."
     }
   },
   "about": {
@@ -44,30 +24,30 @@
       "first": "Hello I'm Will, I'm an enthusiastic and positive Full Stack Developer. I love learning, I consider it a tool to improve and evolve. I was captivated by the I.T. world for its dynamic, constantly changing.",
       "second": "I started in this field by a basic programming course in #Platzi, where I did the #JavaScript school.",
       "third": "  I like to find innovative solutions to different challenges, to work as part of a team and to contribute my technical skills, my ability to listen actively and my capacity for conciliation."
-    }
+     }
   },
   "portfolio": {
-    "title": " Portfolio",
+    "title": "Portfolio",
     "portfolio": [
       {
         "img": "https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/project-1.jpg",
         "title": "Magneto web app",
-        "description": "I work in a Colombian company as a front-end developer and with my team we developed this solution that helps millions of people to find a job.",
+        "description": "Front-end developer at Talenta (TTL squad), migrating and maintaining Magneto’s web app using React, Next.js, TypeScript, Redux, i18next and Ant Design.",
         "href": "https://www.magneto365.com/co/empleos",
         "link": "Visit"
       },
       {
         "img": "https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/project-3.jpg",
-        "title": "Travel planner",
-        "description": "Once a year, it's time to let the place you go home and go discover. With this Travel planner, you can easily plan your next trip. So, where will you go?",
-        "href": "https://example.com",
+        "title": "Ver-Perros App",
+        "description": "Individual project built with React, Redux, Node, Express and PostgreSQL. Browse dog breeds and details using a public API.",
+        "href": "https://verperros.vercel.app",
         "link": "Visit"
       },
       {
         "img": "https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/project-4.jpg",
-        "title": "Sports tracker",
-        "description": "I love sports. I love to track my progress. With this sports tracker app, you can easily track your progress and unlock achievements. The unique gamification aspect makes you want to keep smashing your goals!",
-        "href": "https://example.com",
+        "title": "La-Montañés e-commerce",
+        "description": "Team project (8 people) delivering a full e-commerce. We worked with Scrum and GitHub workflows; I contributed on the front end.",
+        "href": "https://la-montaner.vercel.app",
         "link": "Visit"
       }
     ]
@@ -75,25 +55,28 @@
   "experience": {
     "title": "Experience",
     "list": [
-      { "tag": "Startup advice" },
-      { "tag": "Income tax" },
-      { "tag": "Sales tax" },
-      { "tag": "Minimum Viable Product" },
       { "tag": "HTML" },
       { "tag": "CSS" },
       { "tag": "JavaScript" },
-      { "tag": "React" },
-      { "tag": "Redux" },
-      { "tag": "Next" },
       { "tag": "TypeScript" },
+      { "tag": "React" },
+      { "tag": "Next.js" },
+      { "tag": "Redux" },
+      { "tag": "Node.js" },
+      { "tag": "Express" },
+      { "tag": "PostgreSQL" },
+      { "tag": "Jest" },
       { "tag": "Ant Design" },
-      { "tag": "Python" }
+      { "tag": "i18next" },
+      { "tag": "Git & GitHub" },
+      { "tag": "Scrum" },
+      { "tag": "Vercel" }
     ]
   },
   "testimonials": {
-    "title": "testimonials",
+    "title": "Testimonials",
     "list": [
-      {
+            {
         "description": "Will has completely transformed the way we launch our products! What we particularly appreciate is the attention to detail and express communication. We are really happy that the whole project was completed worry-free! Thank you, Will!",
         "name": "Jhon Doe"
       },
@@ -106,30 +89,40 @@
   "contact": {
     "title": "Hire Me",
     "location": "Current location",
-    "address":"La Felicidad, Mesitas de Santa Inés",
-    "city":"Cachipay,",
-    "country":"Colombia",
-    "emailTitle":"Email",
-    "email":"williamcortes.co@gmail.com",
-    "phoneTitle":"Phone number",
-    "phone":"57 310 329 83 46",
-    "whatsAppMessage": "Hello I want speak with you",
+    "address": "La Felicidad, Mesitas de Santa Inés",
+    "city": "Cachipay,",
+    "country": "Colombia",
+    "emailTitle": "Email",
+    "email": "williamcortes.co@gmail.com",
+    "phoneTitle": "Phone number",
+    "phone": "57 310 329 83 46",
+    "whatsAppMessage": "Hello! I’d like to talk about a project.",
     "action": "https://formsubmit.co/williamcortes.co@gmail.com",
-    "placeholder":{
+    "placeholder": {
       "name": "Enter your name",
       "email": "Enter your email",
-      "message":"Enter your message",
+      "message": "Tell me about your project",
       "btn": "Send"
     }
   },
   "footer": {
-    "img":"https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/logo.svg",
+    "img": "/assets/icons/logo.svg",
     "nick": "Will",
     "slogan": "Always for you",
     "title": "My Social Media",
     "twitter": "https://twitter.com/totto2203",
     "facebook": "https://gist.github.com/WilliamCortes",
     "linkedin": "https://www.linkedin.com/in/williamcortesco/"
+  },
+  "chat": {
+    "title": "Hi there! 👋",
+    "subtitle": "Start a chat. We're here to help you 24/7.",
+    "footer": "",
+    "getStarted": "New Conversation",
+    "inputPlaceholder": "Type your question..",
+    "closeButtonTooltip": "Close chat",
+    "sendButtonTooltip": "Send message",
+    "newMessageNotification": "New message",
+    "botTypingText": "Bot is typing..."
   }
-
 }

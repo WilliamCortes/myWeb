@@ -26,11 +26,11 @@ export const Footer: FC<Props> = ({
         <div className="footer">
           <div className="side">
             <Image
-              layout="responsive"
               src={img}
               alt="Web logo"
               width="45"
               height="43"
+              style={{width: '45px', height: '43px'}}
             />
             <div>
               <p className="text--bold footer-name">

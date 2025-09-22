@@ -21,6 +21,7 @@ type Props = {
   action: string;
   placeholder: Placeholder;
 };
+
 export const Contact: FC<Props> = ({
   title,
   location,
@@ -124,7 +125,7 @@ export const Contact: FC<Props> = ({
               type="text"
               autoComplete="name"
               className="input"
-              placeholder={placeholder.name}
+              placeholder={placeholder?.name}
             />
             <label htmlFor="hire-email" className="sr-only" />
             <input
@@ -132,19 +133,19 @@ export const Contact: FC<Props> = ({
               type="email"
               autoComplete="email"
               className="input"
-              placeholder={placeholder.email}
+              placeholder={placeholder?.email}
             />
             <label htmlFor="hire-message" className="sr-only" />
             <textarea
               id="hire-message"
               className="input"
-              placeholder={placeholder.message}
+              placeholder={placeholder?.message}
             ></textarea>
             <div className="hire-action">
               <input
                 type="submit"
                 className="btn btn--raised"
-                value={placeholder.btn}
+                value={placeholder?.btn}
               />
             </div>
           </form>

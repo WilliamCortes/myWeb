@@ -28,7 +28,6 @@ export const Portfolio: FC<Props> = ({ title, portfolio }) => {
         {portfolio?.map(({ img, title, description, href, link }, i) => (
           <div className="portfolio" key={`${i}-${title}`}>
             <Image
-              layout="responsive"
               src={img}
               width="300"
               height="300"

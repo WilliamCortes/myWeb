@@ -25,11 +25,11 @@ export const About: FC<Props> = ({ title, description }) => {
         </h2>
         <div className="layout-grid-half">
           <div>
-            <p className="text--lg">{description.first}</p>
-            <p className="text--lg">{description.second}</p>
+            <p className="text--lg">{description?.first}</p>
+            <p className="text--lg">{description?.second}</p>
           </div>
           <div>
-            <p className="text--lg">{description.third}</p>
+            <p className="text--lg">{description?.third}</p>
 
             <p className="text--lg">
               Curious to know more? Check-out my{" "}

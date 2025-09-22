@@ -2,6 +2,8 @@
   "compilerOptions": {
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
+    "jsx": "preserve",
+    "jsxImportSource": "react",
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -12,7 +14,6 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve",
     "incremental": true,
     "plugins": [
       {
