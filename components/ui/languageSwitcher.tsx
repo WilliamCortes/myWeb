@@ -25,7 +25,7 @@ const LanguageSwitcher = () => {
         disabled={router.locale === "es"}
         suppressHydrationWarning={true}
       >
-        <Image src="/assets/icons/spain.png" alt="Spain" width="25" height="16" />
+        <Image src="/assets/icons/co.png" alt="Colombia" width="25" height="16" />
       </button>
     </div>
   );
