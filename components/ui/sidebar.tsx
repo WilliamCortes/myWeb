@@ -5,6 +5,7 @@ type Option = {
   title: string;
   href: string;
   className: string;
+  target?: string;
 };
 
 type Props = {
@@ -17,11 +18,11 @@ export const Sidebar: FC<Props> = ({ isOpen, options }) => {
   return (
     <aside className={style.container}>
       <ul className={style.links}>
-        {options?.map(({ title, href }) => {
+        {options?.map(({ title, href, target }) => {
           if (href === "#hire-me") return <Fragment />;
           return (
             <li key={href}>
-              <a href={href} className={`btn ${style.btn}`}>
+              <a href={href} className={`btn ${style.btn}`} target={target} rel={target === '_blank' ? 'noopener noreferrer' : undefined}>
                 {title}
               </a>
             </li>

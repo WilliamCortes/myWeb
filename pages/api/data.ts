@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-import data from "../../data/data.json";
+import data from "../../data/en.json";
 type Data = {
   data: any;
 };

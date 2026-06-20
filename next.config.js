@@ -1,5 +1,4 @@
-
-const { i18n } = require('./next-i18next.config');
+const { i18n } = require("./next-i18next.config");
 
 const nextConfig = {
   reactStrictMode: true,
@@ -13,20 +12,10 @@ const nextConfig = {
         ...config.watchOptions,
         aggregateTimeout: 300,
         poll: 1000,
-        ignored: ['**/.git', '**/node_modules'],
+        ignored: ["**/.git", "**/node_modules"],
       };
     }
     return config;
-  },    
-  experimental: {
-    reactMode: 'concurrent',
-    concurrentFeatures: true,
-  },
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  eslint: {
-    ignoreDuringBuilds: true,
   },
 };
 

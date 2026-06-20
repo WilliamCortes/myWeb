@@ -1,129 +1,183 @@
 {
-    "navbar": {
-      "img": "/assets/icons/logo.svg",
-      "options": [
-        { "title": "Sobre mí", "href": "#about-me", "className": "btn--nav" },
-        { "title": "Portafolio", "href": "#portfolio", "className": "btn--nav" },
-        { "title": "Experiencia", "href": "#experience", "className": "btn--nav" },
-        { "title": "Testimonios", "href": "#testimonials", "className": "btn--nav" },
-        { "title": "Contrátame", "href": "#hire-me", "className": "btn--raised" }
-      ]
-    },
-    "intro": {
-      "fullName": "William Cortés",
-      "profession": "Desarrollador Web",
-      "description": {
-        "first": "Will es un desarrollador web basado en Colombia.",
-        "second": "Construye interfaces accesibles con React/Next.js y APIs REST con Node.js.",
-        "third": "Actualmente enfocado en lanzar funcionalidades reales con herramientas modernas."
+  "navbar": {
+    "img": "/assets/icons/logo.svg",
+    "options": [
+      {
+        "title": "Sobre mí",
+        "href": "#about-me",
+        "className": "btn--nav"
+      },
+      {
+        "title": "Portafolio",
+        "href": "#portfolio",
+        "className": "btn--nav"
+      },
+      {
+        "title": "Habilidades",
+        "href": "#experience",
+        "className": "btn--nav"
+      },
+      {
+        "title": "CV",
+        "href": "https://www.canva.com/design/DAEi_ZAm9Yc/kBd3my5-cFKmZ8mM8NmiVg/view?utm_content=DAEi_ZAm9Yc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+        "className": "btn--nav",
+        "target": "_blank"
+      },
+      {
+        "title": "Testimonios",
+        "href": "#testimonials",
+        "className": "btn--nav"
+      },
+      {
+        "title": "Contrátame",
+        "href": "#hire-me",
+        "className": "btn--raised"
       }
-    },
-    "about": {
-      "title": "Sobre mí",
-      "description": {
-        "first": "Hola, soy Will, soy un Desarrollador Full Stack entusiasta y positivo. Me encanta aprender, lo considero una herramienta para mejorar y evolucionar. Me cautivó el mundo de la TI por su dinamismo, en constante cambio.",
-        "second": "Comencé en este campo con un curso básico de programación en #Platzi, donde hice la escuela de #JavaScript.",
-        "third": "  Me gusta encontrar soluciones innovadoras a diferentes desafíos, trabajar en equipo y contribuir con mis habilidades técnicas, mi capacidad para escuchar activamente y mi capacidad de conciliación."
-      }
-    },
-    "portfolio": {
-      "title": "Portafolio",
-      "portfolio": [
-        {
-          "img": "https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/project-1.jpg",
-          "title": "Magneto web app",
-          "description": "Desarrollador front-end en Talenta (equipo TTL), migrando y manteniendo la app web de Magneto con React, Next.js, TypeScript, Redux, i18next y Ant Design.",
-          "href": "https://www.magneto365.com/co/empleos",
-          "link": "Visitar"
-        },
-        {
-          "img": "https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/project-3.jpg",
-          "title": "Ver-Perros App",
-          "description": "Proyecto individual con React, Redux, Node, Express y PostgreSQL. Explora razas de perros y sus detalles usando una API pública.",
-          "href": "https://verperros.vercel.app",
-          "link": "Visitar"
-        },
-        {
-          "img": "https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/project-4.jpg",
-          "title": "La-Montañés e-commerce",
-          "description": "Proyecto en equipo (8 personas) entregando un e-commerce completo. Trabajamos con Scrum y flujos de GitHub; contribuí en el front-end.",
-          "href": "https://la-montaner.vercel.app",
-          "link": "Visitar"
-        }
-      ]
-    },
-    "experience": {
-      "title": "Experiencia",
-      "list": [
-        { "tag": "HTML" },
-        { "tag": "CSS" },
-        { "tag": "JavaScript" },
-        { "tag": "TypeScript" },
-        { "tag": "React" },
-        { "tag": "Next.js" },
-        { "tag": "Redux" },
-        { "tag": "Node.js" },
-        { "tag": "Express" },
-        { "tag": "PostgreSQL" },
-        { "tag": "Jest" },
-        { "tag": "Ant Design" },
-        { "tag": "i18next" },
-        { "tag": "Git y GitHub" },
-        { "tag": "Scrum" },
-        { "tag": "Vercel" }
-      ]
-    },
-    "testimonials": {
-      "title": "Testimonios",
-      "list": [
-        {
-          "description": "¡Will ha transformado completamente la forma en que lanzamos nuestros productos! Lo que particularmente apreciamos es la atención al detalle y la comunicación expresa. ¡Estamos realmente felices de que todo el proyecto se completara sin preocupaciones! ¡Gracias, Will!",
-          "name": "Jhon Doe"
-        },
-        {
-          "description": "  Al principio éramos escépticos. Sin embargo, Will superó nuestras expectativas en nuestro proyecto. Somos clientes muy felices y satisfechos. ¡Definitivamente recomendado para startups!",
-          "name": "Jhonatan Doe"
-        }
-      ]
-    },
-    "contact": {
-      "title": "Contrátame",
-      "location": "Ubicación actual",
-      "address": "La Felicidad, Mesitas de Santa Inés",
-      "city": "Cachipay,",
-      "country": "Colombia",
-      "emailTitle": "Correo",
-      "email": "williamcortes.co@gmail.com",
-      "phoneTitle": "Número de teléfono",
-      "phone": "57 310 329 83 46",
-      "whatsAppMessage": "¡Hola! Me gustaría hablar sobre un proyecto.",
-      "action": "https://formsubmit.co/williamcortes.co@gmail.com",
-      "placeholder": {
-        "name": "Ingresa tu nombre",
-        "email": "Ingresa tu correo",
-        "message": "Cuéntame sobre tu proyecto",
-        "btn": "Enviar"
-      }
-    },
-    "footer": {
-      "img": "/assets/icons/logo.svg",
-      "nick": "Will",
-      "slogan": "Siempre para ti",
-      "title": "Mis redes sociales",
-      "twitter": "https://twitter.com/totto2203",
-      "facebook": "https://gist.github.com/WilliamCortes",
-      "linkedin": "https://www.linkedin.com/in/williamcortesco/"
-    },
-    "chat": {
-      "title": "¡Hola! 👋",
-      "subtitle": "Inicia un chat. Estamos aquí para ayudarte 24/7.",
-      "footer": "",
-      "getStarted": "Nueva Conversación",
-      "inputPlaceholder": "Escribe tu pregunta..",
-      "closeButtonTooltip": "Cerrar chat",
-      "sendButtonTooltip": "Enviar mensaje",
-      "newMessageNotification": "Nuevo mensaje",
-      "botTypingText": "El bot está escribiendo..."
+    ]
+  },
+  "intro": {
+    "fullName": "William Cortés",
+    "profession": "Full Stack Developer & Automation",
+    "description": {
+      "first": "Desarrollador web y especialista en automatización basado en Colombia.",
+      "second": "Experto en construir interfaces con React/Next.js e integraciones complejas con WhatsApp API y n8n.",
+      "third": "Transformo necesidades de negocio en soluciones tecnológicas eficientes y escalables."
     }
+  },
+  "about": {
+    "title": "Sobre mí",
+    "description": {
+      "first": "Soy un Desarrollador Full Stack apasionado por la optimización de procesos. Me distingo por unir el desarrollo de software tradicional con herramientas de automatización modernas para crear ecosistemas digitales robustos.",
+      "second": "Mi base técnica se formó en el bootcamp de Henry y continúa expandiéndose con mi actual Tecnólogo en Análisis y Desarrollo de Software en el SENA (2022-Presente), además de cursos especializados en Platzi.",
+      "third": "Más allá del código, aporto una visión estratégica para resolver problemas, integrando servicios como la API de WhatsApp y flujos de trabajo en n8n para maximizar la productividad."
+    }
+  },
+  "portfolio": {
+    "title": "Portafolio",
+    "portfolio": [
+      {
+        "img": "https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/project-1.jpg",
+        "title": "Magneto Web App",
+        "description": "Desarrollo Front-End en Talenta. Migración y mantenimiento de la plataforma usando React, Redux, i18next y Ant Design. Optimización de la experiencia de usuario en un entorno de alto tráfico.",
+        "href": "https://home.magneto365.com/",
+        "link": "Ver Proyecto"
+      },
+      {
+        "img": "https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/project-3.jpg",
+        "title": "Ver-Perros App",
+        "description": "SPA Full Stack con React, Node.js y PostgreSQL. Aplicación interactiva que consume APIs externas, demostrando manejo eficiente de estado y bases de datos.",
+        "href": "https://verperros.vercel.app",
+        "link": "Ver Proyecto"
+      },
+      {
+        "img": "https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/project-4.jpg",
+        "title": "La-Montañés E-commerce",
+        "description": "Plataforma de comercio electrónico completa desarrollada con metodología SCRUM. Implementación de carrito de compras, pasarela de pagos y gestión de usuarios.",
+        "href": "https://la-montaner.vercel.app",
+        "link": "Ver Proyecto"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Stack Tecnológico",
+    "list": [
+      {
+        "tag": "JavaScript (ES6+)"
+      },
+      {
+        "tag": "TypeScript"
+      },
+      {
+        "tag": "React.js"
+      },
+      {
+        "tag": "Next.js"
+      },
+      {
+        "tag": "Node.js"
+      },
+      {
+        "tag": "WhatsApp Business API"
+      },
+      {
+        "tag": "n8n (Self-hosted)"
+      },
+      {
+        "tag": "Redux"
+      },
+      {
+        "tag": "Express"
+      },
+      {
+        "tag": "PostgreSQL"
+      },
+      {
+        "tag": "HTML5 & CSS3"
+      },
+      {
+        "tag": "Ant Design"
+      },
+      {
+        "tag": "Git / GitHub"
+      },
+      {
+        "tag": "Scrum"
+      },
+      {
+        "tag": "Vercel"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Testimonios",
+    "list": [
+      {
+        "description": "La capacidad de William para integrar soluciones de automatización con nuestro desarrollo web aceleró nuestros tiempos de respuesta. Su enfoque técnico es impecable.",
+        "name": "Cliente Satisfecho"
+      },
+      {
+        "description": "Un profesional que no solo escribe código, sino que entiende el negocio. Sus implementaciones son sólidas y su comunicación excelente.",
+        "name": "Colaborador Técnico"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contrátame",
+    "location": "Ubicación",
+    "address": "Cachipay, Cundinamarca, Colombia",
+    "city": "",
+    "country": "",
+    "emailTitle": "Correo Electrónico",
+    "email": "williamcortes.co@gmail.com",
+    "phoneTitle": "Móvil / WhatsApp",
+    "phone": "+57 310 329 83 46",
+    "whatsAppMessage": "Hola William, me interesa tu experiencia con automatización y desarrollo web.",
+    "action": "https://formsubmit.co/williamcortes.co@gmail.com",
+    "placeholder": {
+      "name": "Tu nombre completo",
+      "email": "Tu correo electrónico",
+      "message": "¿Cómo puedo ayudarte con tu proyecto?",
+      "btn": "Enviar Mensaje"
+    }
+  },
+  "footer": {
+    "img": "/assets/icons/logo.svg",
+    "nick": "William Cortés",
+    "slogan": "Código + Automatización",
+    "title": "Sígueme en redes",
+    "twitter": "https://twitter.com/totto2203",
+    "facebook": "https://github.com/WilliamCortes",
+    "linkedin": "https://www.linkedin.com/in/williamcortesco/"
+  },
+  "chat": {
+    "title": "¡Hablemos! 👋",
+    "subtitle": "¿Buscas desarrollo web o automatización? Escríbeme.",
+    "footer": "",
+    "getStarted": "Iniciar Chat",
+    "inputPlaceholder": "Escribe tu mensaje...",
+    "closeButtonTooltip": "Cerrar",
+    "sendButtonTooltip": "Enviar",
+    "newMessageNotification": "Nuevo mensaje",
+    "botTypingText": "William está escribiendo..."
   }
-  
+}

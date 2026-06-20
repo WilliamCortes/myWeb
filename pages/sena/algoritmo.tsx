@@ -23,13 +23,19 @@ const TrianglePage: NextPage<Props> = ({ contact, footer }) => {
   );
 };
 
-export const getStaticProps: GetStaticProps = (ctx) => {
-  const data = getData("/api/data");
-
-  return {
-    revalidate: 600,
-    props: { ...data },
-  };
+export const getStaticProps: GetStaticProps = async (ctx) => {
+  try {
+    const data = await getData(ctx.locale || "en");
+    return {
+      revalidate: 600,
+      props: { ...data },
+    };
+  } catch (error) {
+    console.error("Error in getStaticProps:", error);
+    return {
+      notFound: true,
+    };
+  }
 };
 
 export default TrianglePage;
