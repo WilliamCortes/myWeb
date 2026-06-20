@@ -322,6 +322,19 @@ body {
   display: grid;
 }
 
+.about-photo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 36px;
+
+  img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 220px;
+    height: 220px;
+  }
+}
+
 @media (max-width: 600px) {
   .layout-section {
     padding-bottom: 100px;

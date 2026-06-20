@@ -1,4 +1,5 @@
 import React, { FC } from "react";
+import Image from "next/image";
 
 type Description = {
   first: string;
@@ -23,6 +24,14 @@ export const About: FC<Props> = ({ title, description }) => {
         <h2 id="heading-aboutme" className="title--sm layout-section-title">
           {title}
         </h2>
+        <div className="about-photo">
+          <Image
+            src="/assets/mi_foto.jpg"
+            alt={title}
+            width={220}
+            height={220}
+          />
+        </div>
         <div className="layout-grid-half">
           <div>
             <p className="text--lg">{description?.first}</p>

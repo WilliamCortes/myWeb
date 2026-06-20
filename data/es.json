@@ -29,7 +29,7 @@
         "className": "btn--nav"
       },
       {
-        "title": "Contrátame",
+        "title": "Contáctame",
         "href": "#hire-me",
         "className": "btn--raised"
       }
@@ -59,14 +59,14 @@
         "img": "https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/project-1.jpg",
         "title": "Magneto Web App",
         "description": "Desarrollo Front-End en Talenta. Migración y mantenimiento de la plataforma usando React, Redux, i18next y Ant Design. Optimización de la experiencia de usuario en un entorno de alto tráfico.",
-        "href": "https://home.magneto365.com/",
+        "href": "https://www.magneto365.com/co/trabajos/buscar",
         "link": "Ver Proyecto"
       },
       {
         "img": "https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/project-3.jpg",
         "title": "Ver-Perros App",
         "description": "SPA Full Stack con React, Node.js y PostgreSQL. Aplicación interactiva que consume APIs externas, demostrando manejo eficiente de estado y bases de datos.",
-        "href": "https://verperros.vercel.app",
+        "href": "https://verperros.vercel.app/dogs",
         "link": "Ver Proyecto"
       },
       {
@@ -74,6 +74,13 @@
         "title": "La-Montañés E-commerce",
         "description": "Plataforma de comercio electrónico completa desarrollada con metodología SCRUM. Implementación de carrito de compras, pasarela de pagos y gestión de usuarios.",
         "href": "https://la-montaner.vercel.app",
+        "link": "Ver Proyecto"
+      },
+      {
+        "img": "/assets/portfolio/vendo365.jpg",
+        "title": "Vendo365",
+        "description": "Plataforma SaaS que crea sitios web, tienda en línea y SEO para negocios directamente desde una conversación de WhatsApp, usando IA. Construida con foco en automatización y onboarding sin fricción.",
+        "href": "https://vendo365.com/",
         "link": "Ver Proyecto"
       }
     ]
@@ -142,7 +149,7 @@
     ]
   },
   "contact": {
-    "title": "Contrátame",
+    "title": "Contáctame",
     "location": "Ubicación",
     "address": "Cachipay, Cundinamarca, Colombia",
     "city": "",

@@ -59,14 +59,14 @@
         "img": "https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/project-1.jpg",
         "title": "Magneto Web App",
         "description": "Front-End Development at Talenta. Migration and maintenance of the platform using React, Redux, i18next, and Ant Design. Optimization of user experience in a high-traffic environment.",
-        "href": "https://home.magneto365.com/",
+        "href": "https://www.magneto365.com/co/trabajos/buscar",
         "link": "View Project"
       },
       {
         "img": "https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/project-3.jpg",
         "title": "Ver-Perros App",
         "description": "Full Stack SPA with React, Node.js, and PostgreSQL. Interactive application consuming external APIs, demonstrating efficient state and database management.",
-        "href": "https://verperros.vercel.app",
+        "href": "https://verperros.vercel.app/dogs",
         "link": "View Project"
       },
       {
@@ -74,6 +74,13 @@
         "title": "La-Montañés E-commerce",
         "description": "Complete e-commerce platform developed with SCRUM methodology. Implementation of shopping cart, payment gateway, and user management.",
         "href": "https://la-montaner.vercel.app",
+        "link": "View Project"
+      },
+      {
+        "img": "/assets/portfolio/vendo365.jpg",
+        "title": "Vendo365",
+        "description": "SaaS platform that creates a website, online store, and SEO for businesses straight from a WhatsApp conversation, powered by AI. Built with a focus on automation and frictionless onboarding.",
+        "href": "https://vendo365.com/",
         "link": "View Project"
       }
     ]
