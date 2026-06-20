@@ -21,16 +21,21 @@ export const About: FC<Props> = ({ title, description }) => {
       aria-labelledby="heading-aboutme"
     >
       <div className="container">
-        <h2 id="heading-aboutme" className="title--sm layout-section-title">
-          {title}
-        </h2>
-        <div className="about-photo">
-          <Image
-            src="/assets/mi_foto.jpg"
-            alt={title}
-            width={220}
-            height={220}
-          />
+        <div className="about-header">
+          <h2 id="heading-aboutme" className="title--sm about-header__title">
+            {title}
+          </h2>
+          <div className="about-photo">
+            <span className="about-photo__ring" aria-hidden="true" />
+            <span className="about-photo__ring about-photo__ring--alt" aria-hidden="true" />
+            <Image
+              src="/assets/mi_foto.jpg"
+              alt={title}
+              width={240}
+              height={240}
+              className="about-photo__img"
+            />
+          </div>
         </div>
         <div className="layout-grid-half">
           <div>
