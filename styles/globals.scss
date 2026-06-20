@@ -673,13 +673,38 @@ strong {
 
 .btn--wa {
   position: fixed;
-  bottom: 60px;
-  right: 40px;
+  bottom: 24px;
+  right: 24px;
+  z-index: 200;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #25D366;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 20px rgba(37, 211, 102, 0.45);
+  animation: wa-pulse 3s ease-in-out infinite;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-decoration: none;
+
+  &:hover {
+    transform: scale(1.08);
+    box-shadow: 0 6px 28px rgba(37, 211, 102, 0.65);
+    animation: none;
+  }
 }
 
-@media (max-width: 800px) {
+@keyframes wa-pulse {
+  0%, 100% { box-shadow: 0 4px 20px rgba(37, 211, 102, 0.45); }
+  50%       { box-shadow: 0 4px 32px rgba(37, 211, 102, 0.65), 0 0 0 8px rgba(37, 211, 102, 0.1); }
+}
+
+@media (max-width: 768px) {
   .btn--wa {
-    bottom: 20px;
-    right: 10px;
+    bottom: 16px;
+    right: 12px;
+    width: 52px;
+    height: 52px;
   }
 }
